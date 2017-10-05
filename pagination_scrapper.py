@@ -3,7 +3,7 @@ import scrapy
 
 
 class TestSpider(scrapy.Spider):
-    name = 'test'
+    name = 'pagination_scrapper'
     allowed_domains = ['http://quotes.toscrape.com/']
     start_urls = ['http://quotes.toscrape.com/']
 
