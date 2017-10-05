@@ -2,7 +2,7 @@
 import scrapy
 
 
-class TestSpider(scrapy.Spider):
+class PaginationSpider(scrapy.Spider):
     name = 'pagination_scrapper'
     allowed_domains = ['http://quotes.toscrape.com/']
     start_urls = ['http://quotes.toscrape.com/']
